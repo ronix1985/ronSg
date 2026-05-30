@@ -18,16 +18,16 @@ const plane = {
     height: 50,
     image: new Image()
 };
-plane.image.src = 'plane.png'; // Replace with your custom plane image
+plane.image.src = './plane.png'; // Replace with your custom plane image
 
 // Obstacles Array and Cloud Images
 const obstacles = [];
-const obstacleImages = ['obstacle1.png', 'obstacle2.png']; // Replace with your obstacle images
+const obstacleImages = [./'obstacle1.png', ./'obstacle2.png']; // Replace with your obstacle images
 const clouds = [];
 
 // Load Cloud Image
 const cloudImage = new Image();
-cloudImage.src = 'cloud.png'; // Replace with your cloud image
+cloudImage.src = './cloud.png'; // Replace with your cloud image
 
 // Touch Controls
 let isDragging = false;
