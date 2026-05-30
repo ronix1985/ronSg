@@ -14,8 +14,8 @@ let gameSpeed = 3;
 const plane = {
     x: canvas.width / 2 - 25,
     y: canvas.height - 120,
-    width: 60,
-    height: 50,
+    width: 80,
+    height: 70,
     image: new Image()
 };
 plane.image.src = 'plane.png'; // Replace with your custom plane image
@@ -24,7 +24,8 @@ plane.image.src = 'plane.png'; // Replace with your custom plane image
 const obstacles = [];
 const obstacleImages = ['obstacle1.png', 'obstacle2.png']; // Replace with your obstacle images
 const clouds = [];
-
+obstacleImages.style.border = 'solid, blue;'
+obstacleImages.style.borderRadius='20px';
 // Load Cloud Image
 const cloudImage = new Image();
 cloudImage.src = 'cloud.png'; // Replace with your cloud image
