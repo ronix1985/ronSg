@@ -24,8 +24,8 @@ plane.image.src = 'plane.png'; // Replace with your custom plane image
 const obstacles = [];
 const obstacleImages = ['obstacle1.png', 'obstacle2.png']; // Replace with your obstacle images
 const clouds = [];
-obstacles.style.border = "10px solid blue";
-obstacles.style.borderRadius = "20px";
+obstacleImages.style.border = "10px solid blue";
+obstacleImages.style.borderRadius = "20px";
 // Load Cloud Image
 const cloudImage = new Image();
 cloudImage.src = 'cloud.png'; // Replace with your cloud image
