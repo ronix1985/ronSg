@@ -25,7 +25,6 @@ const obstacles = [];
 const obstacleImages = ['obstacle1.png', 'obstacle2.png']; // Replace with your obstacle images
 const clouds = [];
 
-obstacleImages.style.borderRadius = "20px";
 // Load Cloud Image
 const cloudImage = new Image();
 cloudImage.src = 'cloud.png'; // Replace with your cloud image
