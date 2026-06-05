@@ -213,6 +213,9 @@ body {
       border-radius: 10px;
 
 }
+#itik {
+      border: 3px;
+      border-radius: 10px;
 
 /* Modal Content (Image) */
 .modal-content {
