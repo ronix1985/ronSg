@@ -12,7 +12,7 @@ body {
     background: radial-gradient(white, #6F83BE);
 }
 
-#maindiv { display: flex;
+#maindiv { 
           justify-content: center;
          }
 
