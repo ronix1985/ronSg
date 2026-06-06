@@ -4,13 +4,17 @@
 html {
     user-select: none;
 }
-
+          
 body {
     margin: 0;
     width: 100%;
     height: 600px;
     background: radial-gradient(white, #6F83BE);
 }
+
+#maindiv { display: flex;
+          justify-content: center;
+         }
 
 .menu {
     width: 220px;
