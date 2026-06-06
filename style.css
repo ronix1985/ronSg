@@ -14,7 +14,7 @@ body {
 
 #maindiv { 
     width: 100%;
-          display: flex;
+          display: grid;
     justify-content: center;        }
 
 .menu {
