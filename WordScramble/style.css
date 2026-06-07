@@ -13,6 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: url('hazel.png');
+  background-size: cover;
 }
 #bg-music{display: none;}
 .container {
