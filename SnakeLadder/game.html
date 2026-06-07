@@ -16,6 +16,28 @@
 <audio autoplay loop id="bg-music">
   <source src="bg-music.mp3" type="audio/mpeg">  
 </audio>
+<button onclick="document.getElementById('bg-music').play()">Play</button>
+<button onclick="document.getElementById('bg-music').pause()">Pause</button>
+
+    
+<!-- Volume Range Slider -->
+<label for="volumeSlider">Volume:</label>
+<input 
+  type="range" 
+  id="volumeSlider" 
+  min="0" 
+  max="1" 
+  step="0.01" 
+  value="1" 
+  oninput="adjustVolume(this.value)"
+>
+
+    <script>
+  function adjustVolume(val) {
+    const audio = document.getElementById("bg-music");
+    audio.volume = val;
+  }
+</script>
     <!-- checkboxes to control states and variables-->
     <input type="radio" name="players" id="players1" checked="checked" value="1" />
     <input type="radio" name="players" id="players2" value="2" />
