@@ -12,8 +12,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372f0;
+  background: url('scramble.png');
 }
+#bg-music{display: none;}
 .container {
   width: 440px;
   border-radius: 7px;
