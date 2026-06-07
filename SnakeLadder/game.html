@@ -34,12 +34,6 @@
   oninput="adjustVolume(this.value)"
 >
     
-    <script>
-  function adjustVolume(val) {
-    const audio = document.getElementById("bg-music");
-    audio.volume = val;
-  }
-</script>
     </div>
     <!-- checkboxes to control states and variables-->
     <input type="radio" name="players" id="players1" checked="checked" value="1" />
@@ -1368,6 +1362,12 @@
         <embed src="https://studiokah.com/tests/click2.mp3" />
     </div>
 
+    <script>
+  function adjustVolume(val) {
+    const audio = document.getElementById("bg-music");
+    audio.volume = val;
+  }
+    </script>
 
 </body>
 
