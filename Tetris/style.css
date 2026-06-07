@@ -31,7 +31,7 @@ body {
          left: 1px;
          bottom: 1px;}
 #downkey{position: absolute;
-         left: 80px;
+         left: 120px;
          bottom: 0px;}
 #rightkey{position: absolute;
        right: 0px;
@@ -199,6 +199,7 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     background: url('myimg.jpg');
+    background-size: cover;
 }
 
 .nickname {
