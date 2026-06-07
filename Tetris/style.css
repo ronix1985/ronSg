@@ -26,6 +26,10 @@ body {
     box-shadow: 0 0 10px black;
 }
 
+#leftkey{left: 1px;
+         bottom: 1px;}
+
+
 .listMenu {
     width: 100%;
     height: 410px;
