@@ -49,6 +49,13 @@ body {
 }
 
 #bg-music{display: none;}
+#musicdiv{position: absolute;
+          top: 150px;
+          left: 150px;
+          background-color: blue;
+          width: 200px;
+          height: 50px;
+          border-radius: 5px; }
 
 .scrim {
   position: fixed;
