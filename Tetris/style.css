@@ -25,9 +25,16 @@ body {
     z-index: 1000;
     box-shadow: 0 0 10px black;
 }
+#myImg{display: none;}
 
 #leftkey{position: absolute;
          left: 1px;
+         bottom: 1px;}
+#downkey{position: absolute;
+         left: 190px;
+         bottom: 1px;}
+#righttkey{position: absolute;
+       right: 1px;
          bottom: 1px;}
 
 
