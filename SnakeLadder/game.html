@@ -16,6 +16,8 @@
 <audio autoplay loop id="bg-music">
   <source src="bg-music.mp3" type="audio/mpeg">  
 </audio>
+    <div id="musicdiv">
+<p>Music </p>
 <button onclick="document.getElementById('bg-music').play()">Play</button>
 <button onclick="document.getElementById('bg-music').pause()">Pause</button>
 
@@ -31,7 +33,7 @@
   value="1" 
   oninput="adjustVolume(this.value)"
 >
-
+    </div>
     <script>
   function adjustVolume(val) {
     const audio = document.getElementById("bg-music");
