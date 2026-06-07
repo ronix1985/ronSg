@@ -125,6 +125,10 @@ const initTimer = (maxTime) => {
       maxTime--;
       return (timeText.innerText = maxTime);
     }
+    popup.style.display = 'flex';
+  setTimeout(function() {
+    popup.style.display = 'none';
+}, 3000);
     alert(`Time off! ${correctWord.toUpperCase()} was the correct word`);
     initGame();
   }, 1000);
