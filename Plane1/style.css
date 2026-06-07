@@ -12,6 +12,9 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+
+#bg-music{display: none;}
+
 canvas {
     background: linear-gradient(to bottom, #87CEEB, #E0F6FF);
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
