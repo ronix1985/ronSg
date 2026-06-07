@@ -51,11 +51,12 @@ body {
 #bg-music{display: none;}
 #musicdiv{position: absolute;
           top: 150px;
-          left: 150px;
-          
+          left: 150px;          
           width: 200px;
           height: 150px;
-          }
+          font-size: 30px;
+          font-color: blue;
+         }
 
 .scrim {
   position: fixed;
