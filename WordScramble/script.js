@@ -1,4 +1,19 @@
 let words = [
+
+  {
+    word: "dreams",
+    hint: "succession of images, ideas, emotions, and sensations"
+  },
+  
+  {
+    word: "sacrifice",
+    hint: "surrendering or giving up something"
+  },
+  
+    {
+    word: "philippines",
+    hint: "a country that says 'pinamumugaran ng mga buwaya'"
+  },
   {
     word: "addition",
     hint: "The process of adding numbers"
