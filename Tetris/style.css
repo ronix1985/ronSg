@@ -11,7 +11,7 @@ body {
     height: 600px;
     background: radial-gradient(white, #6F83BE);
 }
-
+#bg-music{display: none;}
 .menu {
     width: 220px;
     height: 480px;
