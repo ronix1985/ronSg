@@ -90,19 +90,19 @@ let words = [
   {
     word: "library",
     hint: "Place containing collection of books"
-  }
+  },
   {
     word: "ron",
     hint: "Your handsome editor of this game"
-  }
+  },
    {
     word: "hazel",
     hint: "Ron's gorgeous woman"
-  }
+  },
   {
     word: "blue",
     hint: "Hazel's favourite color"
-  }
+  },
   {
     word: "computer",
     hint: "Electronic device that receives input(data)"
