@@ -26,7 +26,8 @@ body {
     box-shadow: 0 0 10px black;
 }
 
-#leftkey{left: 1px;
+#leftkey{position: absolute;
+         left: 1px;
          bottom: 1px;}
 
 
