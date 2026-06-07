@@ -108,7 +108,7 @@ let words = [
     hint: "Electronic device that receives input(data)"
   }
 ];
-
+const popup = document.getElementById('imagePopup');
 const wordText = document.querySelector(".word"),
   hintText = document.querySelector(".hint span"),
   timeText = document.querySelector(".time b"),
@@ -151,6 +151,9 @@ const checkWord = () => {
   if (!userWord) return alert("Please enter the word to check!");
   if (userWord !== correctWord)
     return alert(`Oops! ${userWord} is not a correct word`);
+  setTimeout(function() {
+    popup.style.display = 'flex';
+}, 3000);
   alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
   initGame();
 };
