@@ -165,6 +165,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+    background: url('myimg.jpg');
 }
 
 #auxiliaryDisplay {
@@ -185,7 +186,8 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #66D7DA;
+    background: url('myimg.jpg');
+}
 }
 
 .nickname {
