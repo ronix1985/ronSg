@@ -14,6 +14,24 @@
 <audio autoplay loop id="bg-music">
   <source src="bg-music.mp3" type="audio/mpeg">  
 </audio>
+
+<button onclick="document.getElementById('bg-music').play()">Play</button>
+<button onclick="document.getElementById('bg-music').pause()">Pause</button>
+
+<!-- Volume Range Slider -->
+<label for="volumeSlider">Volume:</label>
+<input 
+  type="range" 
+  id="volumeSlider" 
+  min="0" 
+  max="1" 
+  step="0.01" 
+  value="1" 
+  oninput="adjustVolume(this.value)"
+>
+
+
+    
 <div id="program">
     <div class="controlPanel">
         <div id="hitbox"><p id="rotateP">tap screen to rotate</p></div>
@@ -49,7 +67,12 @@
     <a href="https://www.tiktok.com/@_hazill/photo/7645326928987082004?_r=1&u_code=f3jd7554i4k5c6&region=PH&mid=7471466904503323409&preview_pb=0&sharer_language=en&_d=f1cichb90i979f&share_item_id=7645326928987082004&source=h5_t&timestamp=1780289257&user_id=7644944249746261000&sec_user_id=MS4wLjABAAAAtlQykmBkUahr5m7M_AYuyvNhGSXBbLm5mm35wcNP_LsoYw3jB0Escex3HG4vGGWD&aweme_type=150&pic_cnt=1&social_share_type=14&ug_photo_idx=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7644653951598823176&share_link_id=1e28318f-d47a-448e-a7be-400bc4cc9b99&share_app_id=1180&ugbiz_name=UNKNOWN&ug_btm=b5836%2Cb2878&sp_root_share_link_id=1e28318f-d47a-448e-a7be-400bc4cc9b99&link_reflow_popup_iteration_sharer=%7B%22click_empty_to_play%22%3A1%2C%22dynamic_cover%22%3A1%2C%22follow_to_play_duration%22%3A-1.0%2C%22profile_clickable%22%3A1%7D&panel_source_v2=share_panel&share_enter_from=others_homepage&item_author_type=2&enable_checksum=1&sp_level=1&sp_root_u=f3jd7554i4k5c6&sp_root_d=f1cichb90i979f"><img src="img_small.gif"  id="myImg" style="width:30%;max-width:100px"></a> 
   </body>
     <script  src="./script.js"></script>
-
+<script>
+  function adjustVolume(val) {
+    const audio = document.getElementById("bg-music");
+    audio.volume = val;
+  }
+</script>
   </body>
   
 </html>
