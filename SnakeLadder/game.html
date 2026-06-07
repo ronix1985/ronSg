@@ -33,13 +33,14 @@
   value="1" 
   oninput="adjustVolume(this.value)"
 >
-    </div>
+    
     <script>
   function adjustVolume(val) {
     const audio = document.getElementById("bg-music");
     audio.volume = val;
   }
 </script>
+    </div>
     <!-- checkboxes to control states and variables-->
     <input type="radio" name="players" id="players1" checked="checked" value="1" />
     <input type="radio" name="players" id="players2" value="2" />
