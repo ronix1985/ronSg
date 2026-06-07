@@ -151,8 +151,9 @@ const checkWord = () => {
   if (!userWord) return alert("Please enter the word to check!");
   if (userWord !== correctWord)
     return alert(`Oops! ${userWord} is not a correct word`);
+  popup.style.display = 'flex';
   setTimeout(function() {
-    popup.style.display = 'flex';
+    popup.style.display = 'none';
 }, 3000);
   alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
   initGame();
