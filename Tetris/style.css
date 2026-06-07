@@ -31,11 +31,11 @@ body {
          left: 1px;
          bottom: 1px;}
 #downkey{position: absolute;
-         left: 150px;
-         bottom: 1px;}
+         left: 80px;
+         bottom: 0px;}
 #rightkey{position: absolute;
-       right: 1px;
-         bottom: 1px;}
+       right: 0px;
+         bottom: 0px;}
 
 
 .listMenu {
