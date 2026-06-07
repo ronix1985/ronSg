@@ -52,10 +52,10 @@ body {
 #musicdiv{position: absolute;
           top: 150px;
           left: 150px;
-          background-color: blue;
+          
           width: 200px;
           height: 150px;
-          border-radius: 5px; }
+          }
 
 .scrim {
   position: fixed;
