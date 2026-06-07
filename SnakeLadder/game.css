@@ -48,6 +48,8 @@ body {
   background-size: cover;
 }
 
+#bg-music{display: none;}
+
 .scrim {
   position: fixed;
   top: 0;
