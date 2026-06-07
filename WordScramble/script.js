@@ -1,10 +1,14 @@
 let words = [
 
   {
-    word: "dreams",
+    word: "dream",
     hint: "succession of images, ideas, emotions, and sensations"
   },
   
+  {
+    word: "menthor",
+    hint: "experienced, trusted individual who provides guidance"
+  },
   {
     word: "sacrifice",
     hint: "surrendering or giving up something"
