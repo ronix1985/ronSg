@@ -13,27 +13,7 @@
      <audio autoplay loop id="bg-music">
   <source src="bg-music.mp3" type="audio/mpeg">  
 </audio>
-<p>Music </p>
-<button onclick="document.getElementById('bg-music').play()">Play</button>
-<button onclick="document.getElementById('bg-music').pause()">Pause</button>
 
-<!-- Volume Range Slider -->
-<label for="volumeSlider">Volume:</label>
-<input 
-  type="range" 
-  id="volumeSlider" 
-  min="0" 
-  max="1" 
-  step="0.01" 
-  value="1" 
-  oninput="adjustVolume(this.value)"
->
-    <script>
-  function adjustVolume(val) {
-    const audio = document.getElementById("bg-music");
-    audio.volume = val;
-  }
-    </script>
   <!DOCTYPE html><!-- Coded by L7 - youtube.com/Coding With L7 --><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>Word Scramble Game ni Hazel</title><link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="js/words.js" defer></script><script src="js/script.js" defer></script></head><body><div class="container"><h2>Word Scramble</h2><div class="content"><p class="word"></p><div class="details"><p class="hint">Hint: <span></span></p><p class="time">Time Left: <span><b>30</b>s</span></p></div><input type="text" spellcheck="false" placeholder="Enter a valid word"><div class="buttons"><button class="refresh-word">Refresh Word</button><button class="check-word">Check Word</button></div></div></div></body></html>
     <script  src="./script.js"></script>
 
